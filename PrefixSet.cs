@@ -46,7 +46,7 @@ namespace NoPrefixSet
 					node = node.children[ch];
 				}
 				node.isWord = true;
-				return true;
+				return node.children.Count == 0;
 			}
 		}
 
